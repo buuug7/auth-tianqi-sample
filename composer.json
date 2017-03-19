@@ -1,0 +1,12 @@
+{
+    "name": "buuug7/client01",
+    "authors": [
+        {
+            "name": "buuug7",
+            "email": "youpp@126.com"
+        }
+    ],
+    "require": {
+        "guzzlehttp/guzzle": "^6.2"
+    }
+}

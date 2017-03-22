@@ -2,7 +2,7 @@
 
 // 跳转获取授权码(code)
 
-require ('../config.php');
+require ('config.php');
 
 $query = http_build_query([
     'response_type' => 'code',

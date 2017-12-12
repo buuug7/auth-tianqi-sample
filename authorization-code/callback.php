@@ -19,7 +19,7 @@ $response = $http->post($auth_get_token_uri, [
 
 $accessToken = json_decode($response->getBody())->access_token;
 
-$user = $http->get('http://tianqi-user-center.app/api/user', [
+$user = $http->get('http://user.tq0.com/api/user', [
     'headers' => [
         'Accept' => 'application/json',
         'Authorization' => 'Bearer ' . $accessToken,

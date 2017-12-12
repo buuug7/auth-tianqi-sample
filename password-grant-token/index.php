@@ -34,7 +34,7 @@ HTML;
 //
 // 获取用户信息
 //
-$user = $http->get('http://tianqi-user-center.app/api/user', [
+$user = $http->get('http://user.tq0.com/api/user', [
     'headers' => [
         'Accept' => 'application/json',
         'Authorization' => 'Bearer ' . $access_token,
